@@ -36,6 +36,10 @@ $(".btn").on("click", (event) => {
   //if button pressed is wrong set end screen
   else {
     $("h1").text("Game Over, Press A Key to Restart");
+    makeSound(event.target.id);
+    $("." + event.target.id)
+      .fadeOut(100)
+      .fadeIn(100);
     gamePattern = [];
     i = 0;
   }
