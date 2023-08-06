@@ -1,5 +1,5 @@
 //game instructions
-alert("Press A to start the game. Then press the buttons in the order they light up. If you get the order wrong, you lose. Good luck!");
+alert("Press 'A' to start the game. Then press the buttons in the order they light up. If you get the order wrong, you lose. Good luck!");
 
 //start game when press a
 $(window).on("keydown", (event) => {
